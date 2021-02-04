@@ -6,7 +6,14 @@ namespace Emily_Braman_Week4_Homework_6
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int num;
+            Console.Write("Enter a Number: ");
+            num = Convert.ToInt32(Console.ReadLine());
+            if (num % 2 == 0)
+                Console.WriteLine("Given number is even");
+            else
+                Console.WriteLine("Given number is odd");
+            Console.ReadKey();
         }
     }
 }
